@@ -1,0 +1,73 @@
+h1{
+    text-align: center;
+}
+
+div.search-country{
+    margin-left: 685px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+div.register{
+    margin-left: 1200px;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 100px;
+    
+}
+
+div.country{
+    margin-left: 600px;
+}
+select{
+    width: 200px;
+    margin-right: 600px;
+}
+
+div.image_url{
+    margin-left: 600px;
+}
+input{
+    width: 200px;
+    height: 80px;
+}
+
+div.description{
+    margin-left: 600px;
+}
+textarea{
+    width: 200px;
+    height: 80px;
+}
+
+div.register{
+    margin-left: 660px
+    
+}
+
+h3{
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin-left: 60px;
+}
+
+div.delete{
+    margin-left: 670px;
+}
+
+input.btn.btn-register{
+    margin-left: 643px;
+    color: blue;
+    border: black;
+}
+
+div.famous.place{
+    margin-left: 600px;
+}
+
+div.delete{
+    margin-left: px;
+}

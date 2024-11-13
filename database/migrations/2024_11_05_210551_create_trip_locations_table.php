@@ -13,7 +13,8 @@ return new class extends Migration
     {
         Schema::create('trip_locations', function (Blueprint $table) {
             $table->id();
-            $table->string('country'); // 国名
+            $table->string('famousplace'); // 名所
+            $table->tinyInteger('country'); // 地域名
             $table->string('image_url')->nullable(); // 画像のURL
             $table->text('description')->nullable(); // 説明
             $table->timestamps();
