@@ -295,6 +295,11 @@ return [
             'url'  => 'items',
             'icon' => 'fas fa-gamepad',
         ],
+        [
+            'text' => '旅先一覧',
+            'url'  => 'trip_locations',
+            'icon' => 'fas fa-gamepad',
+        ],
 
         // AdminLTEデフォルト
         /*
