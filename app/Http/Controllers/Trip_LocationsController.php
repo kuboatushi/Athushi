@@ -26,9 +26,9 @@ class Trip_LocationsController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'famousplace' => 'required|string',
-            'country' => 'required|string',
-            'image_url' => 'required|string',
+            'famousplace' => 'required|string|max:250',
+            'country' => 'required',
+            'image_url' => 'required|string|max:250',
             'description' => 'required|string|max:500',
         ]);
 
@@ -52,6 +52,13 @@ class Trip_LocationsController extends Controller
     // 特定の旅先を更新
     public function update(Request $request,$id)
     {
+        $request->validate([
+            'famousplace' => 'required|string|max:250',
+            'country' => 'required',
+            'image_url' => 'required|string|max:250',
+            'description' => 'required|string|max:500',
+        ]);
+        
         $trip_location=Trip_Location::find($id);
         $trip_location->update([
             'famousplace' =>$request->famousplace,

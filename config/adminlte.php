@@ -290,11 +290,11 @@ return [
     */
 
     'menu' => [
-        [
-            'text' => '商品一覧',
-            'url'  => 'items',
-            'icon' => 'fas fa-gamepad',
-        ],
+        // [
+        //     'text' => '商品一覧',
+        //     'url'  => 'items',
+        //     'icon' => 'fas fa-gamepad',
+        // ],
         [
             'text' => '旅先一覧',
             'url'  => 'trip_locations',
